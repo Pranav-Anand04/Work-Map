@@ -1,0 +1,198 @@
+body {
+    display: flex;
+}
+.sidebar {
+    flex-basis: 20rem;
+    background-color: #596e7d;
+    padding: 3rem 5rem 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    align-items: center;
+    color: lightblue;
+}
+
+.exercise-form {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sidebar-header {
+    margin-top: 0px;
+    color: white;
+}
+
+.enter-form, .exercise {
+    background-color: #2e3840;
+    border-radius: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    align-items: center;
+    border-left: 5px solid black;
+}
+
+.form-input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 0.3rem 1.1rem;
+    font-family: inherit;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s;
+    display: flex;
+
+}
+
+.inputs-given {
+    background-color: #b7dcf9;
+    border-radius: 10px;
+    width: 70px;
+    padding: 4px;
+    flex:0 0 20%;
+    margin-left: 3px;
+}
+
+.type1 {
+    margin-left: 36px;
+    flex: 0 0 40%;
+}
+
+.inputs-done, .delete-button {
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #b7dcf9;
+    margin-bottom: 2px;
+    padding: 4px 10px 4px 10px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.exercise {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.exercise-form {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.text-exercise {
+    width: 350px;
+    height: 40px;
+}
+
+.workout-details {
+   display: inline;
+   font-size: 16px;
+   margin-left: 20px;
+
+}
+
+.workout-title {
+    font-size: 20px;
+}
+
+.bold-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.delete-button {
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+   font-size: 25px;
+   border-radius: 15px;
+}
+
+#map {
+    flex: 1;
+    height: 100%;
+    background-color: #b7dcf9;
+}
+
+.map-div {
+    height: 760px;
+    width: 950px;
+    display: flex;
+}
+
+.exercise2 {
+    margin-top: 5px;
+}
+
+.popup-custom {
+    color: #b7dcf9;
+}
+
+.Running-border {
+    border-left: 5px solid green;
+}
+
+.Sports-border {
+    border-left: 5px solid red;
+}
+
+.Swimming-border {
+    border-left: 5px solid blue;
+}
+
+.Wight-Lifting-border {
+    border-left: 5px solid black;
+}
+
+.Cycling-border {
+    border-left: 5px solid yellow;
+}
+
+.Others-border {
+    border-left: 5px solid gray;
+}
+
+.Running-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid green;
+}
+
+.Sports-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid red;
+
+}
+.Swimming-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid blue;
+
+}
+.Wight-Lifting-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid black;
+
+}
+.Cycling-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid yellow;
+
+}
+.Others-custom .leaflet-popup-content-wrapper {
+    color: black;
+    background-color: #b7dcf9;
+    border-left: 5px solid gray;
+
+}
+

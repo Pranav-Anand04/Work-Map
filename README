@@ -1,0 +1,16 @@
+# Workout out Project created by Pranav Anand on January 11 2024
+# This project was created using leaflet libraries.
+
+#### Description 
+
+This project allows you to choose what workout you have done at that day and then adds a location to the map.
+This allows users to workout somewhere new everyday while making there body healthier. This will help them gain
+motivation everday to change there lives. 
+This projects requires the users location to create a map at that latitude and longtitude, where then user can
+what exact location they want. After they pick the website will show them the input form, where they will be 
+required to log in what type of workout, distance, duration, and calories they have lost. These three are 
+main factors that are needed in every workout. Then after the button is clicked it creates a new form and 
+each form will have different ID's. If user wants to delete a workout they will be promted and they have to 
+enter the ID of which form they want to delete. To delete the marker they will have to double tab the marker.
+
+Thank you.

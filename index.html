@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+        crossorigin=""></script>
+    <title>WorkMap - log in workout and explore new places everyday</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h1 class="sidebar-header">Log workout</h1>
+        <div id = "form-div" hidden>
+        <form class="enter-form">
+            <div class=form-input>
+                <label class="form-type">Type:</label>
+                <select id = "select-input" class="inputs-given type1">
+                    <option value="Running">Running</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Swimming">Swimming</option>
+                    <option value="Wight-Lifting">Wight Lifting</option>
+                    <option value="Cycling">Cycling</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class=form-input>
+                <label class="form-type">Distance:</label>
+                <input id = "distance-input" class="inputs-given" placeholder="miles">
+            </div>
+            <div class=form-input>
+                <label class="form-type">Duration: </label>
+                <input id = "duration-input" class="inputs-given" placeholder="min">
+            </div>
+            <div class=form-input>
+                <label class="form-type">Calories: </label>
+                <input id = "calorie-input" class="inputs-given" placeholder="350">
+            </div>
+            <div class=form-input>
+                <button id = "done-button" class="inputs-done">Done</button>
+            </div>
+        </form>
+        </div>
+        <div id="exercise-form" class="exercise-form">
+        <!-- <form class="exercise" id="exercise">
+            <p class="workout-title">Cycling on January 4</p>
+            <div class="text-exercise">
+                <p class="workout-details">🚴‍♀️<b class="bold-text">1211</b>MI</p>
+                <p class="workout-details">⏱<b class="bold-text">1111</b>MIN</p>
+                <p class="workout-details">🔥<b class="bold-text">1333</b>Calories</p>
+            </div>
+            <button class="delete-button">Delete</button>
+            
+        </form> -->
+    </div>
+    <button class = "delete-button" id = "delete-button">Delete?</button>
+    </div>
+    <div class="map-div">
+        <div id="map"></div>
+    </div>
+    <script  src="script.js"></script>
+
+</body>
+
+</html>
